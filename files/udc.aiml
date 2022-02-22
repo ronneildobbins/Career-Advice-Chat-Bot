@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hello</pattern>
+    <template>
+        Welcome, if you would like to use the career advice tool please press the "Career Advice"
+        button. If not press the "Not Interested" button.
+        <button>
+            <text>Career Advice</text>
+            <postback>beginProgram</postback>
+        </button><button>
+            <text>Not Interested</text>
+            <postback>exitProgram</postback>
+        </button>
+        </template>
+  </category>
+
+  <category>
+      <pattern>exitProgram</pattern>
+      <template>Thanks for stoping by anyway ! Have a wonderful day !</template>
+  </category>
+  
+  
+  <category>
+      <pattern>beginProgram</pattern>
+      <template>
+        Welcome to the AI powered career advice tool.
+        Please select the description that best matches your interest:
+           <delay>1</delay>
+           
+           Option 1: Researching, designing, devolping, and test computer systems, and computer hardware. 
+           <delay>2</delay>
+           Skills include analyitical, creativity, critical thinking, problem solving, and communication.
+           <delay>4</delay>
+            
+            Option 2: Architects and designs information technology solutions and services for organizations
+            <delay>2</delay>
+             Skills include analyitical,communication, organizational, and project management. 
+            <delay>4</delay>
+            
+            Option 3: Create, maintain databases that protect sensitive information and provide access to important datasets for organizations
+            <delay>2</delay>
+             Skills include analyitical,communication, detail oriented, problem solving, and database management.
+            <delay>4</delay>
+            
+            Option 4: Design, build, and deploy programs to various platforms. Platforms like web, phone, and computer.
+            <delay>2</delay>
+             Skills include communication, detail oriented, team work, and problem solving . 
+            <delay>4</delay>
+            
+            Option 5: Analyize, defend, and repel organization's data and computer systems from cyberattacks
+            <delay>2</delay>
+             Skills include analyitical, communication, detail-oriented, and knowledgeable in informational technology.  
+             
+             
+            <delay>10</delay>
+            Ok that's all the options, feel free to scroll up and reread the options. Take your time and when your ready, select the description that best matches you:
+            <button>
+                <text>Option 1</text>
+                <postback>recommendComputerHardwareEngineer</postback> 
+            </button>
+            <button>
+                <text>Option 2</text>
+                <postback>recommendItArchitect</postback> 
+            </button>
+            <button>
+                <text>Option 3</text>
+                <postback>recommendDatabaseAdministrator</postback> 
+            </button>
+            <button>
+                <text>Option 4</text>
+                <postback>recommendSoftwareDeveloper</postback> 
+            </button>
+            <button>
+                <text>Option 5</text>
+                <postback>recommendSecurityAnalyst</postback> 
+            </button>
+            
+      </template>
+  </category>
+
+<category>
+    <pattern>recommendComputerHardwareEngineer</pattern>
+    <template>Great Choice! I would recommend the career: Computer hardware engineer</template>
+</category>
+<category>
+    <pattern>recommendItArchitect</pattern>
+    <template>Great Choice! I would recommend the career: IT Architect </template>
+</category>
+<category>
+    <pattern>recommendDatabaseAdministrator</pattern>
+    <template> Great Choice! I would recommend the career: Database Administator </template>
+</category>
+<category>
+    <pattern>recommendSoftwareDeveloper</pattern>
+    <template>Great Choice! I would recommend the career: Software Developer </template>
+</category>
+<category>
+    <pattern>recommendSecurityAnalyst</pattern>
+    <template>Great Choice! I would recommend the career: Security Analyst</template>
+</category>
+
+
+
+    <category>
+    <pattern>*</pattern>
+    <template>Sorry, I do not have a awnser for that. Type "Hello" to begin the career advice tool</template>
+    </category>
+</aiml>
