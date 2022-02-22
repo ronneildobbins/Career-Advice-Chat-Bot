@@ -1,2 +1,4 @@
 # Career-Advice-Chat-Bot
-Contains the files for rdc951wgu
+ 
+Career Advice Chatbot offers computer science students a recommended career type.
+
