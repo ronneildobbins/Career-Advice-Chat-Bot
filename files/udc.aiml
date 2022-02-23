@@ -28,19 +28,19 @@
         Please select the description that best matches your interest:
            <delay>1</delay>
            
-           Option 1: Researching, designing, devolping, and test computer systems, and computer hardware. 
+           Option 1: Researching, designing, developing, and testing computer systems, and computer hardware. 
            <delay>2</delay>
-           Skills include analyitical, creativity, critical thinking, problem solving, and communication.
+           Skills include analytical, creativity, critical thinking, problem solving, and communication.
            <delay>4</delay>
             
             Option 2: Architects and designs information technology solutions and services for organizations
             <delay>2</delay>
-             Skills include analyitical,communication, organizational, and project management. 
+             Skills include analytical,communication, organizational, and project management. 
             <delay>4</delay>
             
-            Option 3: Create, maintain databases that protect sensitive information and provide access to important datasets for organizations
+            Option 3: Create, maintains databases that protect sensitive information and provide access to important datasets for organizations
             <delay>2</delay>
-             Skills include analyitical,communication, detail oriented, problem solving, and database management.
+             Skills include analytical,communication, detail-oriented, problem solving, and database management.
             <delay>4</delay>
             
             Option 4: Design, build, and deploy programs to various platforms. Platforms like web, phone, and computer.
@@ -50,7 +50,7 @@
             
             Option 5: Analyize, defend, and repel organization's data and computer systems from cyberattacks
             <delay>2</delay>
-             Skills include analyitical, communication, detail-oriented, and knowledgeable in informational technology.  
+             Skills include analytical, communication, detail-oriented, and knowledgeable in informational technology.  
              
              
             <delay>10</delay>
@@ -81,7 +81,7 @@
 
 <category>
     <pattern>recommendComputerHardwareEngineer</pattern>
-    <template>Great Choice! I would recommend the career: Computer hardware engineer</template>
+    <template>Great Choice! I would recommend the career: Computer Hardware Engineer</template>
 </category>
 <category>
     <pattern>recommendItArchitect</pattern>
